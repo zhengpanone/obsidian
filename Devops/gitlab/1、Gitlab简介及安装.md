@@ -222,8 +222,8 @@ docker exec -it gitlab grep 'Password:' /etc/gitlab/initial_root_password
 
 ![](https://cdn.nlark.com/yuque/0/2025/png/782222/1751955191407-6660005f-15d0-4923-b34c-f5113cc81a45.png)
 
-![](https://cdn.nlark.com/yuque/0/2025/png/782222/1751955191519-0509362c-5abc-4ba8-b790-2e7b027df4d4.png)
 
+![[0509362c-5abc-4ba8-b790-2e7b027df4d4.png]]
 ##### 🔍 生产环境建议
 
 1. **高可用基础架构** GitLab作为核心DevOps平台，需保障**服务连续性**。Docker部署需配合宿主机HA机制（如Keepalived）实现故障转移。
